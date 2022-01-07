@@ -1,44 +1,41 @@
-@font-face {
-  font-family: 'Raleway', sans-serif;
-  src: local('Raleway-Thin'), url('./fonts/Raleway-Thin.ttf') format('truetype');
-  font-weight: bold;
-}
-
-.font-face-rt {
-  font-family: 'Raleway';
-}
-
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #00080a;
 }
 
 .App-header {
+  font-family: 'Raleway';
+  font-size: 80px;;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+.nav {
+  font-family: 'Raleway';
+  font-weight: bold;
+  color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background-img {
+  background-image: url('https://wallpapercave.com/wp/wp2234611.png');
+  background-size: cover;
+}
+
+.App-footer {
+  border-top: 1px solid white;
+  font-family: 'Raleway';
+  font-size: 27px;
+  color: whitesmoke;
+  background-image: url('./images/footer.jpg');
+}
+
+.footer-text {
+  margin: 2%;
+}
+
+.fab {
+  font-family: 'Raleway';
+  font-size: 25px;
+  color: whitesmoke;
 }

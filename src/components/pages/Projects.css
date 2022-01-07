@@ -1,0 +1,60 @@
+.work-header {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: whitesmoke;
+  margin: 2%;
+}
+
+.sub-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-img {
+  object-fit: cover;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 50vh;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.card-body {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+}
+
+.card:hover .card-img {
+  opacity: 0.1;
+}
+
+.card:hover .card-body {
+  opacity: 1;
+  height: 100%;
+  overflow: scroll;
+}
+
+.card-text {
+  color: black;
+}
+
+.code-refactor {
+  vertical-align: center;
+}
+
+.projects {
+  vertical-align: center;
+}
