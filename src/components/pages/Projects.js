@@ -21,9 +21,9 @@ export default function Projects() {
                 <div className="col-md-4">
                   <div className="card">
                     <img className="card-img" src={Horiseon} alt="Horiseon Homepage"/>
-                    <div className="card-body">
+                    <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">A refactor of broken HTML and CSS organization <br/>
-                      <a href="https://humkeyg.github.io/01-HMTL-Git-CSS-Homework/" className="card-link">Horiseon Homepage</a>
+                      <a target="_blank" href="https://humkeyg.github.io/01-HMTL-Git-CSS-Homework/" className="card-link">Horiseon Homepage</a>
                       </p>
                     </div>
                   </div>
@@ -32,9 +32,9 @@ export default function Projects() {
                 <div className="col-md-4">
                   <div className="card">
                     <img className="card-img" src={Notetaker} alt="Note Taker Homepage"/>
-                    <div className="card-body">
+                    <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">An Express.js application utilizing POST & GET requests</p>
-                      <a href="https://humkeyg.github.io/Week11HW/" className="card-link">Note Taker application</a>
+                      <a target="_blank" href="https://humkeyg.github.io/Week11HW/" className="card-link">Note Taker application</a>
                     </div>
                   </div>
                 </div>
@@ -42,9 +42,9 @@ export default function Projects() {
                 <div className="col-md-4">
                   <div className="card">
                     <img className="card-img" src={Regex} alt="Regex tutorial image"/>
-                    <div className="card-body">
+                    <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">A Github gist page explaining the functionality of an email Regex</p>
-                      <a href="https://github.com/humkeyg/Regex-Tutorial" className="card-link">Regex Tutorial</a>
+                      <a target="_blank" href="https://github.com/humkeyg/Regex-Tutorial" className="card-link">Regex Tutorial</a>
                     </div>
                   </div>
                 </div>
@@ -52,17 +52,17 @@ export default function Projects() {
               </div>
         </section>
 
-        <section className="container-fluid" id="projects">
-          <h4 id="sub-header-projects" className="sub-header">Projects</h4>
-            <div className="projects-grid" id="projects-grid"></div>
+        <section className="container-fluid" id="applications">
+          <h4 id="sub-header-applications" className="sub-header">Applications</h4>
+            <div className="applications-grid" id="applications-grid"></div>
             <div className="row">
 
               <div className="col-md-4">
                 <div className="card">
                   <img className="card-img" src={Moodsic} alt="Moodsic Homepage"/>
-                  <div className="card-body">
+                  <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A music listening application using the Spotify API</p>
-                    <a href="https://k-kelsey.github.io/GroupProject1/" className="card-link">Moodsic application</a>
+                    <a target="_blank" href="https://k-kelsey.github.io/GroupProject1/" className="card-link">Moodsic application</a>
                   </div>
                 </div>
               </div>
@@ -70,9 +70,9 @@ export default function Projects() {
               <div className="col-md-4">
                 <div className="card">
                   <img className="card-img" src={Careercone} alt="Career Cone Homepage"/>
-                  <div className="card-body">
+                  <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A job search management application using the MVC paradigm</p>
-                    <a href="https://careerconeproject.herokuapp.com/" className="card-link">Career Cone application</a>
+                    <a target="_blank" href="https://careerconeproject.herokuapp.com/" className="card-link">Career Cone application</a>
                   </div>
                 </div>
               </div>
@@ -80,9 +80,9 @@ export default function Projects() {
               <div className="col-md-4">
                 <div className="card">
                   <img className="card-img" src={Placeholder} alt="coming "/>
-                  <div className="card-body">
+                  <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">Coming soon</p>
-                    <a href="#" className="card-link"></a>
+                    <a target="_blank" href="#" className="card-link"></a>
                   </div>
                 </div>
               </div>

@@ -18,8 +18,8 @@
   border-radius: 50%;
   display: block;
   position: relative;
-  min-width: 10%;
-  max-width: 60%;
+  min-height: 100px;
+  max-height: 400px;
   margin: 2.5%;
 }
 
@@ -31,4 +31,8 @@
   position: relative;
   margin: 2.5%;
   text-align: justify;
+}
+
+.btn-resume {
+  font-family: 'Raleway', sans-serif;
 }

@@ -44,11 +44,23 @@
 .card:hover .card-body {
   opacity: 1;
   height: 100%;
+  width: 100%;
   overflow: scroll;
 }
 
 .card-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  align-items: center;  
+  font-size: 25px;
   color: black;
+}
+
+.card-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  vertical-align: bottom;
 }
 
 .code-refactor {

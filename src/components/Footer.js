@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { faGithub, faLinkedin } from '@fortawesome/free-solid-svg-icons'
 
 function Footer({}) {
     return (
@@ -6,10 +9,10 @@ function Footer({}) {
           <div className="social-links">
             <p className="footer-text">Check out my Github and Linked In!</p>
             <a href="https://github.com/humkeyg">
-              <i className="fab fa-github"></i>
+            <FontAwesomeIcon icon={'fab', 'faGithub'} />
             </a>
             <a href="https://www.linkedin.com/in/gabrielle-humkey-b74729217/">
-            <i className="fab fa-linkedin"></i>
+            <FontAwesomeIcon icon={'fab', 'faLinkedin'} />
             </a>
           </div>
         </footer>
