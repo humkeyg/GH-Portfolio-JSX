@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Week20HW/static/css/main.a007c4ac.css",
+    "main.js": "/Week20HW/static/js/main.c0f7ef2b.js",
+    "static/js/787.cf250828.chunk.js": "/Week20HW/static/js/787.cf250828.chunk.js",
+    "static/media/Working Horiseon Homepage.png": "/Week20HW/static/media/Working Horiseon Homepage.b2b7cd7e4a4f09ee8d1e.png",
+    "static/media/moodsic.png": "/Week20HW/static/media/moodsic.1faad1ba0ab6fd7b249c.png",
+    "static/media/Headshot.jpg": "/Week20HW/static/media/Headshot.d83fcd129a5c23c76660.jpg",
+    "static/media/placeholder.jpg": "/Week20HW/static/media/placeholder.3544303836ca5d767502.jpg",
+    "static/media/Raleway-Thin.ttf": "/Week20HW/static/media/Raleway-Thin.3ef5e3c711b6bdaeceee.ttf",
+    "static/media/footer.jpg": "/Week20HW/static/media/footer.57b22ee07554d69622a8.jpg",
+    "static/media/Regex.png": "/Week20HW/static/media/Regex.b6caf91b5f3a5d1f3043.png",
+    "static/media/careerCone.PNG": "/Week20HW/static/media/careerCone.3da45758df1ba4838161.PNG",
+    "static/media/noteTaker.PNG": "/Week20HW/static/media/noteTaker.f5bd764d4ff725a9dc83.PNG",
+    "index.html": "/Week20HW/index.html",
+    "main.a007c4ac.css.map": "/Week20HW/static/css/main.a007c4ac.css.map",
+    "main.c0f7ef2b.js.map": "/Week20HW/static/js/main.c0f7ef2b.js.map",
+    "787.cf250828.chunk.js.map": "/Week20HW/static/js/787.cf250828.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a007c4ac.css",
+    "static/js/main.c0f7ef2b.js"
+  ]
+}
