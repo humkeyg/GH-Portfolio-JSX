@@ -45,10 +45,6 @@ export default function About() {
         </a>
       </div>
 
-      {/* <iframe
-        src="https://docs.google.com/document/d/1FVMCWTkOJGX6Kxr8YnLLrAY15t_RwUy1MJqxF00Zo9Y/edit?usp=sharing"
-        title="Resume"
-      ></iframe> */}
     </>
   );
 }
