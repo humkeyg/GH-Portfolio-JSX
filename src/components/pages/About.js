@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./About.css";
 import Headshot from "../../images/Headshot.jpg";
-import ModalContainer from "../Modal.js";
 
 export default function About() {
   return (
@@ -18,14 +17,10 @@ export default function About() {
             />
           </div>
           <p className="about-me-text">
-            I am a new web-developer, eager to master new coding languages. I
-            graduated from the University of Washington with a Bachelor in
-            Science. I am currently attending the UW Coding Bootcamp for Full
-            Stack Web Development. My passion for coding unique solutions drove
-            me to make this career shift and pursue frontend development. I put
-            considerable effort into creating efficient, accessible,
-            user-friendly applications, and it is something I am passionate
-            about pursuing more of.
+          I am a full stack web developer with a passion for creating polished front end designs and accessible user interfaces. 
+          I possess a strong commitment to developing customer friendly and easy to use applications. 
+          I am a proactive, agile practicing leader with strong communication and collaboration skills. 
+          I am eager to learn and further refine my knowledge in coding languages and structures.
           </p>
         </div>
 
