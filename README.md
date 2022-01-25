@@ -1,5 +1,7 @@
 # React.js JSX Portfolio
 
+link to portfolio: https://humkeyg.github.io/GH-Portfolio-JSX/
+
 ## Summary
 
 A portfolio created using JSX skills and technology.
