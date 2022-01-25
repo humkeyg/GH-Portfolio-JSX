@@ -6,11 +6,18 @@
   margin: 2%;
 }
 
+#applications,
+#code-refactor {
+  background-image: url('https://wallpaperaccess.com/full/3310310.jpg');
+  box-shadow: 0px 0px 30px 2px #366;
+}
+
 .sub-header {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   color: white;
   text-align: center;
+  padding: 2%;
 }
 
 .card {

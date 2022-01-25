@@ -20,7 +20,10 @@
   position: relative;
   min-height: 100px;
   max-height: 400px;
-  margin: 2.5%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 5%;
 }
 
 .about-me-text {
@@ -29,7 +32,10 @@
   color: whitesmoke;
   display: block;
   position: relative;
-  margin: 2.5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-left: 5%;
   text-align: justify;
 }
 

@@ -9,19 +9,24 @@ export default function About() {
       <div className="background">
         <h1 className="about-me-header">About Me</h1>
         <div className="about-me-row">
-          <div className="img-container">
+          
+          <div className="col-4">
             <img
               src={Headshot}
               alt="Gabrielle Humkey headshot"
               className="img-headshot"
             />
           </div>
-          <p className="about-me-text">
-          I am a full stack web developer with a passion for creating polished front end designs and accessible user interfaces. 
-          I possess a strong commitment to developing customer friendly and easy to use applications. 
-          I am a proactive, agile practicing leader with strong communication and collaboration skills. 
-          I am eager to learn and further refine my knowledge in coding languages and structures.
-          </p>
+         
+          <div className="col-8">
+            <p className="about-me-text">
+            I am a full stack web developer with a passion for creating polished front end designs and accessible user interfaces. 
+            I possess a strong commitment to developing customer friendly and easy to use applications. 
+            I am a proactive, agile practicing leader with strong communication and collaboration skills. 
+            I am eager to learn and further refine my knowledge in coding languages and structures.
+            </p>
+          </div>
+
         </div>
 
         <a
