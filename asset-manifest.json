@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/GH-Portfolio-JSX/static/css/main.f7dd1578.css",
-    "main.js": "/GH-Portfolio-JSX/static/js/main.ca28a83e.js",
+    "main.js": "/GH-Portfolio-JSX/static/js/main.a9f6242f.js",
     "static/js/787.cf250828.chunk.js": "/GH-Portfolio-JSX/static/js/787.cf250828.chunk.js",
     "static/media/Working Horiseon Homepage.png": "/GH-Portfolio-JSX/static/media/Working Horiseon Homepage.b2b7cd7e4a4f09ee8d1e.png",
     "static/media/moodsic.png": "/GH-Portfolio-JSX/static/media/moodsic.1faad1ba0ab6fd7b249c.png",
     "static/media/redux-store.gif": "/GH-Portfolio-JSX/static/media/redux-store.7fb77f0503aa7634ecfc.gif",
     "static/media/Headshot.jpg": "/GH-Portfolio-JSX/static/media/Headshot.d83fcd129a5c23c76660.jpg",
     "static/media/placeholder.jpg": "/GH-Portfolio-JSX/static/media/placeholder.3544303836ca5d767502.jpg",
+    "static/media/weather-dashboard.jpg": "/GH-Portfolio-JSX/static/media/weather-dashboard.f88940c5631224c88105.jpg",
     "static/media/the-tech-blog.jpg": "/GH-Portfolio-JSX/static/media/the-tech-blog.4fb584207315b013b6ae.jpg",
     "static/media/Raleway-Thin.ttf": "/GH-Portfolio-JSX/static/media/Raleway-Thin.3ef5e3c711b6bdaeceee.ttf",
     "static/media/footer.jpg": "/GH-Portfolio-JSX/static/media/footer.57b22ee07554d69622a8.jpg",
@@ -20,11 +21,11 @@
     "static/media/noteTaker.PNG": "/GH-Portfolio-JSX/static/media/noteTaker.f5bd764d4ff725a9dc83.PNG",
     "index.html": "/GH-Portfolio-JSX/index.html",
     "main.f7dd1578.css.map": "/GH-Portfolio-JSX/static/css/main.f7dd1578.css.map",
-    "main.ca28a83e.js.map": "/GH-Portfolio-JSX/static/js/main.ca28a83e.js.map",
+    "main.a9f6242f.js.map": "/GH-Portfolio-JSX/static/js/main.a9f6242f.js.map",
     "787.cf250828.chunk.js.map": "/GH-Portfolio-JSX/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7dd1578.css",
-    "static/js/main.ca28a83e.js"
+    "static/js/main.a9f6242f.js"
   ]
 }
