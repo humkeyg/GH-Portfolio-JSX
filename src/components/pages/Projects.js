@@ -12,7 +12,7 @@ import Password from '../../images/password-generator.png';
 import Employee from '../../images/employee-tracker.jpg';
 import Team from '../../images/team-profile-generator.jpg';
 import Blog from '../../images/the-tech-blog.jpg';
-import Weather from '../../images/team-profile-generator.jpg';
+import Weather from '../../images/weather-dashboard.jpg';
 
 
 
@@ -32,6 +32,7 @@ export default function Projects() {
                     <img className="card-img" src={Horiseon} alt="Horiseon Homepage"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">A refactor of broken HTML and CSS organization <br/>
+                      <a target="_blank" href="https://github.com/humkeyg/01-HMTL-Git-CSS-Homework" className="card-link">GitHub Repo</a>
                       <a target="_blank" href="https://humkeyg.github.io/01-HMTL-Git-CSS-Homework/" className="card-link">Horiseon Homepage</a>
                       </p>
                     </div>
@@ -43,6 +44,7 @@ export default function Projects() {
                     <img className="card-img" src={Notetaker} alt="Note Taker Homepage"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">An Express.js application utilizing POST & GET requests<br/>
+                      <a target="_blank" href="https://github.com/humkeyg/Note-Taker" className="card-link">GitHub Repo</a>
                       <a target="_blank" href="https://humkeyg.github.io/Note-Taker/" className="card-link">Note Taker application</a>
                       </p>
                     </div>
@@ -69,6 +71,7 @@ export default function Projects() {
                     <img className="card-img" src={Redux} alt="Redux-Store image"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">A code refactor of an e-commerce back-end.<br/>
+                      <a target="_blank" href="https://github.com/humkeyg/Redux-Store" className="card-link">GitHub Repo</a>
                       <a target="_blank" href="https://mighty-river-91299.herokuapp.com/" className="card-link">Redux-Store application</a>
                       </p>
                     </div>
@@ -80,6 +83,7 @@ export default function Projects() {
                     <img className="card-img" src={Workday} alt="Workday Scheduler image"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">A real-time JS application for scheduling the current workday<br/>
+                      <a target="_blank" href="https://github.com/humkeyg/Work-Day-Scheduler" className="card-link">GitHub Repo</a>
                       <a target="_blank" href="https://humkeyg.github.io/Work-Day-Scheduler/" className="card-link">Workday Scheduler application</a>
                       </p>
                     </div>
@@ -91,6 +95,7 @@ export default function Projects() {
                     <img className="card-img" src={Password} alt="Password Generator image"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
                       <p className="card-text">A random password generator app using JS<br/>
+                      <a target="_blank" href="https://github.com/humkeyg/Random-Password-Generator" className="card-link">GitHub Repo</a>
                       <a target="_blank" href="https://humkeyg.github.io/Random-Password-Generator/" className="card-link">Password Generator appplication</a>
                       </p>
                     </div>
@@ -111,6 +116,7 @@ export default function Projects() {
                   <img className="card-img" src={Moodsic} alt="Moodsic Homepage"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A music listening application using the Spotify API<br/>
+                    <a target="_blank" href="https://github.com/K-Kelsey/GroupProject1" className="card-link">GitHub Repo</a>
                     <a target="_blank" href="https://k-kelsey.github.io/GroupProject1/" className="card-link">Moodsic application</a>
                     </p>
                   </div>
@@ -122,6 +128,7 @@ export default function Projects() {
                   <img className="card-img" src={Careercone} alt="Career Cone Homepage"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A job search management application using the MVC paradigm<br/>
+                    <a target="_blank" href="https://github.com/humkeyg/Career-Cone-1.0" className="card-link">Github Repo</a>
                     <a target="_blank" href="https://careerconeproject.herokuapp.com/" className="card-link">Career Cone application</a>
                     </p>
                   </div>
@@ -133,6 +140,7 @@ export default function Projects() {
                   <img className="card-img" src={Employee} alt="Employee Tracker image"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A node.js command-line application for managers to add an update employees<br/>
+                    <a target="_blank" href="https://github.com/humkeyg/Employee-Tracker" className="card-link">GitHub Repo</a>
                     <a target="_blank" href="https://watch.screencastify.com/v/11FB3Q3XndV7fOvSGjJg" className="card-link">Employee Tracker Demo</a>
                     </p>
                   </div>
@@ -148,6 +156,7 @@ export default function Projects() {
                   <img className="card-img" src={Team} alt="Team profile generator image"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A JS application that generates an HTML page with employee cards<br/>
+                    <a target="_blank" href="https://github.com/humkeyg/Team-Profile-Generator" className="card-link">GitHub Repo</a>
                     <a target="_blank" href="https://watch.screencastify.com/v/ZL7u4WuRnTjEISPJnSgh" className="card-link">Team Profile Generator Demo</a>
                     </p>
                   </div>
@@ -159,6 +168,7 @@ export default function Projects() {
                   <img className="card-img" src={Blog} alt="Tech Blog image"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A tech blog using the MCV paradigm Handlebars<br/>
+                    <a target="_blank" href="https://github.com/humkeyg/Tech-Blog" className="card-link">GitHub repo</a>
                     <a target="_blank" href="https://salty-fortress-37062.herokuapp.com/" className="card-link">The Tech Blog homepage</a>
                     </p>
                   </div>
@@ -170,6 +180,7 @@ export default function Projects() {
                   <img className="card-img" src={Weather} alt="Weather dashboard image "/>
                   <div className="card-body align-items-center d-flex justify-content-center">
                     <p className="card-text">A weather app using the One Call Weather API to retrieve and display data using JS<br/>
+                    <a target="_blank" href="https://github.com/humkeyg/Weather-Dashboard" className="card-link">GitHub Repo</a>
                     <a target="_blank" href="https://humkeyg.github.io/Weather-Dashboard/" className="card-link">Weather Dashboard application</a>
                     </p>
                   </div>
