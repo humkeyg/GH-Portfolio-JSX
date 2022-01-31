@@ -25,6 +25,8 @@ export default function Contact() {
         
         <button type="submit" value="Submit" className="btn btn-submit btn-warning">Submit</button>
 
+        <p className="email">Email me directly at: <a href="mailto:humkeyg@gmail.com">humkeyg@gmail.com</a></p>
+
       </form>
 
     </div>
