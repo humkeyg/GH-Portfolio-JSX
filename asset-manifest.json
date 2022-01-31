@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GH-Portfolio-JSX/static/css/main.f7dd1578.css",
-    "main.js": "/GH-Portfolio-JSX/static/js/main.a9f6242f.js",
+    "main.css": "/GH-Portfolio-JSX/static/css/main.65d3a05f.css",
+    "main.js": "/GH-Portfolio-JSX/static/js/main.8aba7e62.js",
     "static/js/787.cf250828.chunk.js": "/GH-Portfolio-JSX/static/js/787.cf250828.chunk.js",
     "static/media/Working Horiseon Homepage.png": "/GH-Portfolio-JSX/static/media/Working Horiseon Homepage.b2b7cd7e4a4f09ee8d1e.png",
     "static/media/moodsic.png": "/GH-Portfolio-JSX/static/media/moodsic.1faad1ba0ab6fd7b249c.png",
@@ -20,12 +20,12 @@
     "static/media/password-generator.png": "/GH-Portfolio-JSX/static/media/password-generator.8bc18156dd3aedbdb233.png",
     "static/media/noteTaker.PNG": "/GH-Portfolio-JSX/static/media/noteTaker.f5bd764d4ff725a9dc83.PNG",
     "index.html": "/GH-Portfolio-JSX/index.html",
-    "main.f7dd1578.css.map": "/GH-Portfolio-JSX/static/css/main.f7dd1578.css.map",
-    "main.a9f6242f.js.map": "/GH-Portfolio-JSX/static/js/main.a9f6242f.js.map",
+    "main.65d3a05f.css.map": "/GH-Portfolio-JSX/static/css/main.65d3a05f.css.map",
+    "main.8aba7e62.js.map": "/GH-Portfolio-JSX/static/js/main.8aba7e62.js.map",
     "787.cf250828.chunk.js.map": "/GH-Portfolio-JSX/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7dd1578.css",
-    "static/js/main.a9f6242f.js"
+    "static/css/main.65d3a05f.css",
+    "static/js/main.8aba7e62.js"
   ]
 }
