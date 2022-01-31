@@ -1,11 +1,12 @@
 import React from 'react';
 import './Projects.css';
+import { Col, Row } from 'react-bootstrap';
 import Horiseon from '../../images/Working Horiseon Homepage.png';
-import Notetaker from '../../images/noteTaker.PNG';
+// import Notetaker from '../../images/noteTaker.PNG';
 import Regex from '../../images/Regex.png';
 import Moodsic from '../../images/moodsic.png';
-import Careercone from '../../images/careerCone.PNG';
-import Placeholder from '../../images/placeholder.jpg';
+// import Careercone from '../../images/careerCone.PNG';
+// import Placeholder from '../../images/placeholder.jpg';
 import Redux from '../../images/redux-store.gif';
 import Workday from '../../images/workday-scheduler.jpg';
 import Password from '../../images/password-generator.png';
@@ -25,9 +26,9 @@ export default function Projects() {
         <section className="container-fluid" id="code-refactor">
           <h3 id="sub-header-code-refactors" className="sub-header">Code Refactors</h3>
             <div className="code-refactor-grid" id="code-refactor-grid"></div>
-              <div className="row">
+              <Row className="row">
 
-                <div className="col-md-4">
+                <Col>
                   <div className="card">
                     <img className="card-img" src={Horiseon} alt="Horiseon Homepage"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
@@ -37,9 +38,9 @@ export default function Projects() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </Col>
 
-                <div className="col-md-4">
+                {/* <div className="col-md-4">
                   <div className="card">
                     <img className="card-img" src={Notetaker} alt="Note Taker Homepage"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
@@ -49,24 +50,9 @@ export default function Projects() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="col-md-4">
-                  <div className="card">
-                    <img className="card-img" src={Regex} alt="Regex tutorial image"/>
-                    <div className="card-body align-items-center d-flex justify-content-center">
-                      <p className="card-text">A Github gist page explaining the functionality of an email Regex<br/>
-                      <a target="_blank" href="https://github.com/humkeyg/Regex-Tutorial" className="card-link">Regex Tutorial application</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-              <div className="row">
-
-                <div className="col-md-4">
+                <Col>
                   <div className="card">
                     <img className="card-img" src={Redux} alt="Redux-Store image"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
@@ -76,9 +62,36 @@ export default function Projects() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </Col>
 
-                <div className="col-md-4">
+                <Col>
+                  <div className="card">
+                    <img className="card-img" src={Regex} alt="Regex tutorial image"/>
+                    <div className="card-body align-items-center d-flex justify-content-center">
+                      <p className="card-text">A Github gist page explaining the functionality of an email Regex<br/>
+                      <a target="_blank" href="https://github.com/humkeyg/Regex-Tutorial" className="card-link">Regex Tutorial application</a>
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+
+              </Row>
+
+              <Row className="row">
+
+                {/* <div>
+                  <div className="card">
+                    <img className="card-img" src={Redux} alt="Redux-Store image"/>
+                    <div className="card-body align-items-center d-flex justify-content-center">
+                      <p className="card-text">A code refactor of an e-commerce back-end.<br/>
+                      <a target="_blank" href="https://github.com/humkeyg/Redux-Store" className="card-link">GitHub Repo</a>
+                      <a target="_blank" href="https://mighty-river-91299.herokuapp.com/" className="card-link">Redux-Store application</a>
+                      </p>
+                    </div>
+                  </div>
+                </div> */}
+
+                <Col>
                   <div className="card">
                     <img className="card-img" src={Workday} alt="Workday Scheduler image"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
@@ -88,9 +101,9 @@ export default function Projects() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </Col>
 
-                <div className="col-md-4">
+                <Col>
                   <div className="card">
                     <img className="card-img" src={Password} alt="Password Generator image"/>
                     <div className="card-body align-items-center d-flex justify-content-center">
@@ -100,18 +113,18 @@ export default function Projects() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </Col>
 
-              </div>
+              </Row>
 
         </section>
 
         <section className="container-fluid" id="applications">
           <h4 id="sub-header-applications" className="sub-header">Applications</h4>
             <div className="applications-grid" id="applications-grid"></div>
-            <div className="row">
+            <Row className="row">
 
-              <div className="col-md-4">
+              <Col>
                 <div className="card">
                   <img className="card-img" src={Moodsic} alt="Moodsic Homepage"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
@@ -121,9 +134,9 @@ export default function Projects() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Col>
 
-              <div className="col-md-4">
+              {/* <div>
                 <div className="card">
                   <img className="card-img" src={Careercone} alt="Career Cone Homepage"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
@@ -133,25 +146,9 @@ export default function Projects() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="col-md-4">
-                <div className="card">
-                  <img className="card-img" src={Employee} alt="Employee Tracker image"/>
-                  <div className="card-body align-items-center d-flex justify-content-center">
-                    <p className="card-text">A node.js command-line application for managers to add an update employees<br/>
-                    <a target="_blank" href="https://github.com/humkeyg/Employee-Tracker" className="card-link">GitHub Repo</a>
-                    <a target="_blank" href="https://watch.screencastify.com/v/11FB3Q3XndV7fOvSGjJg" className="card-link">Employee Tracker Demo</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div className="row">
-
-              <div className="col-md-4">
+              <Col>
                 <div className="card">
                   <img className="card-img" src={Team} alt="Team profile generator image"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
@@ -161,9 +158,37 @@ export default function Projects() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Col>
 
-              <div className="col-md-4">
+              <Col>
+                <div className="card">
+                  <img className="card-img" src={Employee} alt="Employee Tracker image"/>
+                  <div className="card-body align-items-center d-flex justify-content-center">
+                    <p className="card-text">A node.js command-line application for managers to add an update employees<br/>
+                    <a target="_blank" href="https://github.com/humkeyg/Employee-Tracker" className="card-link">GitHub Repo</a>
+                    <a target="_blank" href="https://watch.screencastify.com/v/11FB3Q3XndV7fOvSGjJg" className="card-link">Employee Tracker Demo</a>
+                    </p>
+                  </div>
+                </div>
+              </Col>
+
+            </Row>
+
+            <Row className="row">
+
+              {/* <div>
+                <div className="card">
+                  <img className="card-img" src={Team} alt="Team profile generator image"/>
+                  <div className="card-body align-items-center d-flex justify-content-center">
+                    <p className="card-text">A JS application that generates an HTML page with employee cards<br/>
+                    <a target="_blank" href="https://github.com/humkeyg/Team-Profile-Generator" className="card-link">GitHub Repo</a>
+                    <a target="_blank" href="https://watch.screencastify.com/v/ZL7u4WuRnTjEISPJnSgh" className="card-link">Team Profile Generator Demo</a>
+                    </p>
+                  </div>
+                </div>
+              </div> */}
+
+              <Col>
                 <div className="card">
                   <img className="card-img" src={Blog} alt="Tech Blog image"/>
                   <div className="card-body align-items-center d-flex justify-content-center">
@@ -173,9 +198,9 @@ export default function Projects() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Col>
 
-              <div className="col-md-4">
+              <Col>
                 <div className="card">
                   <img className="card-img" src={Weather} alt="Weather dashboard image "/>
                   <div className="card-body align-items-center d-flex justify-content-center">
@@ -185,9 +210,10 @@ export default function Projects() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Col>
 
-            </div>
+            </Row>
+
         </section>
       </div>
     </div>
