@@ -18,7 +18,7 @@ A portfolio created using JSX skills and technology.
 
 ## Description
 
-A website created using React.js. This framework allows the developer to showcase their skills in a dynamic website.
+A website created using React.js. This framework allows the developer to showcase their skills in a dynamic website. The technologies used include JS, CSS, HTML, React.js, React-Bootstrap, and Bootstrap.
 
 ## Features
 
