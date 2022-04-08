@@ -32,6 +32,16 @@ function Navigation({ currentPage, setCurrentPage }) {
           Contact
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#techskills"
+        
+          onClick={() => setCurrentPage('Techskills')}
+          className={currentPage === 'Techskills' ? 'nav-link active' : 'nav-link'}
+        >
+          Technical Skills
+        </a>
+      </li>
     </ul>
   );
 }

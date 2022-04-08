@@ -1,0 +1,47 @@
+.about-me-header {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: whitesmoke;
+  margin: 2%;
+}
+
+.about-me-row {
+  display: flex;
+  flex-direction: row;
+  background-image: url('https://wallpaperaccess.com/full/3310310.jpg');
+  background-size: cover;
+  margin: 3%;
+  box-shadow: 0px 0px 30px 2px #366;
+}
+
+.img-headshot {
+  border-radius: 50%;
+  display: inline block;
+  position: relative;
+  min-height: 100px;
+  max-height: 400px;
+  margin: 10%;
+}
+
+.text-background {
+  opacity: 65%;
+  background-color: whitesmoke;
+  margin: 5%;
+}
+
+.about-me-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  display: inline block;
+  position: relative;
+  padding: 5%;
+  text-align: justify;
+}
+
+.btn-resume {
+  font-family: 'Raleway', sans-serif;
+  margin: 5px;
+}
