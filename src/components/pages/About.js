@@ -37,6 +37,75 @@ export default function About() {
 
         </Row>
 
+      <div className="techskills-bg">
+        <h2 className="techskills-header">Technical Skills</h2>
+        <Row>
+          {/*  idea here is to insert images of all the technical skills JS, HTML, JSX etc. */}
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+        </Row>
+
+        <Row>
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="card">
+                <img className="card-img" src={Password} alt="Password Generator image"/>
+              </div>
+            </Col>
+        </Row>
+
+      </div>
+
         <a
           className="btn btn-resume btn-warning"
           href="https://docs.google.com/document/d/1FVMCWTkOJGX6Kxr8YnLLrAY15t_RwUy1MJqxF00Zo9Y/edit?usp=sharing"

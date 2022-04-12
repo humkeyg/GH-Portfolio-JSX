@@ -32,7 +32,7 @@ function Navigation({ currentPage, setCurrentPage }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#techskills"
         
@@ -41,7 +41,7 @@ function Navigation({ currentPage, setCurrentPage }) {
         >
           Technical Skills
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }
