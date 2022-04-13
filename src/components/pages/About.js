@@ -40,7 +40,7 @@ export default function About() {
       <div className="techskills-bg">
         <h2 className="techskills-header">Technical Skills</h2>
         <Row>
-          {/*  idea here is to insert images of all the technical skills JS, HTML, JSX etc. */}
+          {/*  idea here is to insert images of all my technical skills JS, HTML, JSX etc. */}
             <Col>
               <div className="card">
                 <img className="card-img" src={Password} alt="Password Generator image"/>
